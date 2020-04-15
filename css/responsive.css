@@ -1,0 +1,608 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .banner-area .slick-dots {
+        right: 15px;
+    }
+   
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /*    sticky css*/
+    .sticky .menu-btn {
+        padding: 8px 10px;
+    }
+
+    /*    about css*/
+    
+
+    .about-area span {
+        padding: 0 25px;
+    }
+
+    .about-area .mob-img {
+        margin-left: 0px;
+    }
+
+    /*    our awesome css*/
+    .single-left {
+        padding-left: 20px;
+    }
+
+    /*    awesome team css*/
+    .team-social {
+        width: 100%;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /*nav css*/
+    .navbar.navbar-expand-lg.navbar-light.p-0 {
+        top: 30px;
+    }
+
+    #navbarSupportedContent {
+        position: absolute;
+        top: 100%;
+        width: 94%;
+    }
+
+    .navbar-nav.ml-auto {
+        background: #244a618a;
+        padding: 0 30px;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        padding: 20px 0;
+    }
+
+    .navbar-toggler {
+        padding: 0;
+        border: 0;
+    }
+
+    .fa.fa-bars {
+        color: #fff;
+        font-size: 40px;
+        border: 0;
+    }
+
+    .menu-btn {
+        padding: 4px 15px;
+        position: absolute;
+        left: 79%;
+    }
+
+    /*    banner css*/
+    .banner-area .banner-slide .overlay {
+        padding-bottom: 80px;
+    }
+
+    /*    sticky css*/
+    .sticky .navbar-brand {
+        width: 160px;
+        height: 60px;
+    }
+
+    .sticky .navbar-brand img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sticky .menu-btn {
+        padding: 4px 13px;
+    }
+
+    /*    banner css*/
+
+    .banner-text {
+        padding-top: 130px;
+    }
+
+
+    /*    about css*/
+   .about-area p {
+	text-align: center;
+	padding-right: 35px;
+	padding-left: 0;
+}
+
+    .about-area span {
+	text-align: center;
+	padding-right: 30px;
+}
+   .about-area .mob-img {
+	margin-left: -23px;
+}
+
+    /*    aweasome features*/
+    .single-left {
+        padding-left: 20px;
+    }
+
+    .awesome-area .awesome-img {
+        text-align: right;
+    }
+
+    .globle-text {
+        padding: 0 60px;
+        text-align: center;
+    }
+
+    .globle-text h4 {
+        padding-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .globle-text p {
+        margin-bottom: 10px;
+    }
+
+    .globle-text span {
+        padding-bottom: 25px;
+
+    }
+
+    /*    price css*/
+    .single_price {
+        margin-bottom: 45px;
+    }
+
+
+    
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*nav css*/
+    .navbar.navbar-expand-lg.navbar-light.p-0 {
+        top: 30px;
+    }
+
+    #navbarSupportedContent {
+        position: absolute;
+        top: 100%;
+        width: 94%;
+    }
+
+    .navbar-nav.ml-auto {
+        background: #244a618a;
+        padding: 0 30px;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        padding: 20px 0;
+    }
+
+    .navbar-toggler {
+        padding: 0;
+        border: 0;
+    }
+
+    .fa.fa-bars {
+        color: #fff;
+        font-size: 40px;
+        border: 0;
+    }
+
+    .menu-btn {
+        padding: 4px 15px;
+        position: absolute;
+        left: 73%;
+    }
+
+    .navbar-brand {
+        width: 150px;
+        height: 60px;
+    }
+
+    .navbar-brand img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /*    banner slide css*/
+    .banner-area .slick-dots {
+        position: absolute;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        top: 92%;
+        left: 0%;
+    }
+
+    .banner-area .slick-dots li:nth-child(1) {
+        display: none;
+    }
+
+    .banner-area .slick-dots li:nth-child(2),
+    .banner-area .slick-dots li:nth-child(3) {
+        margin: 16px 0;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    /*    sticky css*/
+    .sticky .menu-btn {
+        padding: 8px 10px;
+    }
+
+    .sticky .navbar-brand {
+        width: 160px;
+        height: 60px;
+    }
+
+    .sticky .navbar-brand img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sticky .menu-btn {
+        padding: 4px 13px;
+    }
+
+
+    /*    banner css*/
+    .banner-area .banner-slide .overlay {
+        padding-bottom: 80px;
+    }
+
+    .banner-text {
+        padding-top: 110px;
+    }
+
+    .banner-text h1 {
+        font-size: 45px;
+        margin-bottom: 15px;
+    }
+
+    .banner-text #font {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .banner-text hr {
+        margin-bottom: 10px;
+    }
+
+    .banner-text p {
+        margin-bottom: 40px;
+        font-size: 15;
+        padding-left: 60px;
+    }
+
+    .banner-text .ban-btn {
+        margin-left: 15px;
+    }
+
+    .ban-btn a {
+        width: 150px;
+        padding: 5px 0;
+    }
+
+    .btn-text h3 {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+
+    .btn-text h4 {
+        font-size: 15px;
+    }
+
+
+    /*    about css*/
+    .about-area p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .about-area span {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .about-area .mob-img {
+        margin-top: 35px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    /*    aweasome features*/
+    .single-left {
+        padding-left: 20px;
+    }
+
+    .awesome-area .awesome-img {
+        text-align: center;
+    }
+
+    .globle-text {
+        padding: 0px 5px;
+        text-align: center;
+    }
+
+    .globle-text h4 {
+        padding-top: 0;
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+
+    .globle-text p {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .globle-text span {
+        padding-bottom: 25px;
+        font-size: 16px;
+    }
+
+    /*    price css*/
+    .single_price {
+        margin-bottom: 45px;
+    }
+/*    team css*/
+    .team-text {
+	padding: 20px 10px;
+}
+
+
+    
+
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    /*nav css*/
+    .navbar.navbar-expand-lg.navbar-light.p-0 {
+        top: 30px;
+    }
+
+    #navbarSupportedContent {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+    }
+
+    .navbar-nav.ml-auto {
+        background: #062537;
+        padding: 0 30px;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        padding: 20px 0;
+    }
+
+    .navbar-toggler {
+        padding-right: 7px;
+        border: 0;
+    }
+
+    .fa.fa-bars {
+        color: #fff;
+        font-size: 40px;
+        border: 0;
+    }
+
+    .menu-btn {
+        padding: 4px 15px;
+        position: absolute;
+        left: 56%;
+    }
+
+    .navbar-brand {
+        width: 150px;
+        height: 60px;
+    }
+
+    .navbar-brand img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /*    banner slide css*/
+    .banner-area .slick-dots {
+        position: absolute;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        top: 86%;
+        left: 0%;
+        margin-bottom: 0;
+    }
+
+    .banner-area .slick-dots li:nth-child(1) {
+        display: none;
+    }
+
+    .banner-area .slick-dots li:nth-child(2),
+    .banner-area .slick-dots li:nth-child(3) {
+        margin: 8px 0;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    /*    sticky css*/
+    .sticky .menu-btn {
+        padding: 8px 10px;
+    }
+
+    .sticky .navbar-brand {
+        width: 160px;
+        height: 60px;
+    }
+
+    .sticky .navbar-brand img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sticky .menu-btn {
+        padding: 4px 13px;
+    }
+    .navbar.navbar-expand-lg.navbar-light.p-0.sticky .nav-item {
+	padding: 20px 0;
+}
+
+
+    /*    banner css*/
+    .banner-area .banner-slide .overlay {
+        padding-bottom: 40px;
+    }
+
+    .banner-text {
+        padding-top: 90px;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .banner-text #font {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .banner-text hr {
+        margin-bottom: 5px;
+    }
+
+    .banner-text p {
+        margin-bottom: 30px;
+        font-size: 15;
+        padding-left: 0px;
+    }
+
+    .banner-text .ban-btn {
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .ban-btn a {
+        width: 150px;
+        padding: 5px 0;
+    }
+
+    .btn-text h3 {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+
+    .btn-text h4 {
+        font-size: 15px;
+    }
+
+
+    /*    about css*/
+    .about-area h1 {
+        margin-top: 30px;
+    }
+
+    .title-img {
+        margin-bottom: 20px;
+    }
+
+    .about-area p {
+        text-align: justify;
+        padding: 0 5px;
+        margin-bottom: 20px;
+    }
+
+    .about-area span {
+        text-align: justify;
+        padding: 0 5px;
+        display: block;
+    }
+
+    .about-area .mob-img {
+        margin-top: 35px;
+        margin-bottom: 30px;
+        text-align: center;
+        width: 300px;
+        margin-left: -6px;
+    }
+
+    .mob-img img {
+        width: 100%;
+    }
+
+    /*    aweasome features*/
+    .awesome-area h1 {
+        font-size: 19px;
+    }
+
+    .single-left {
+        padding-left: 0px;
+    }
+
+    .single-left .awesome-icon i {
+        font-size: 35px;
+        line-height: 38px;
+    }
+
+    .Awe-text h4 {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .single-left hr {
+        margin: 16px 0;
+    }
+
+    .awesome-area .awesome-img {
+        text-align: center;
+    }
+
+    .globle-text {
+        padding: 0px 5px;
+        text-align: justify;
+    }
+
+    .globle-text h4 {
+        padding-top: 0;
+        margin-bottom: 15px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .globle-text p {
+        margin-bottom: 10px;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .globle-text span {
+        padding-bottom: 25px;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    /*    price css*/
+    .single_price {
+        margin-bottom: 45px;
+    }
+/*    team css*/
+    .team-text {
+	padding: 30px 30px;
+}
+/*    feedback css*/
+    .fb-text {
+	padding: 30px;
+}
+
+    /*    footer css*/
+    .footer-icon a {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+
+}
